@@ -99,6 +99,46 @@ img {
   margin-left: -480px;
 }
 
+#slider {
+  width: 650px;
+  height: 450px;
+  margin: 0 auto;
+  border: 1px solid red;
+  position: relative;
+}
+
+#slider > img {
+  width: 100%;
+  height: 100%;
+  position: absoulte;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 40%;
+  background: rgba(128, 128, 128, 0.4);
+  width: 25px;
+  height: 60px;
+  border: none;
+  font-size: 20px;
+  color: white;
+  padding-top: 30px;
+  border-radius: 0 5px 5px 0;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 5px 0 0 5px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 .nav_top {
   position: fixed;
   top: 60px;
