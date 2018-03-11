@@ -3,6 +3,16 @@
 body
   font-family: Arial sans-serif
 
+content
+  position: relative
+  width: 100%
+  height: 600px
+  margin-bottom: 210px
+  z-index: 2
+  background-color: #fff
+  article
+    text-align: center
+
 .test-bg
   position: relative
   width: 100%
@@ -42,13 +52,162 @@ body
   top: 18%
   left: 2%
 
-.content
+
+
+
+
+.work-m
+  height: 400px
   width: 100%
-  height: 600px
+  border: 1px solid red
+
+
+.work-belt
+  overflow-x: hidden
   position: relative
-  margin-bottom: 210px
-  z-index: 2
+  width: 200%
+  left: 0%
+  text-align: 500px
+
+
+.content-m
+  position: relative
+  top: 50px
+  left: 200px
+
+.thumbnail
+  width: 200px
+  height: 200px
+  border: 1px solid red
+  float: left
+
+figure
+  margin: auto
+  position: relative
+
+.thumbnail img
+  width: 100%
+  height: 200px
+  size: cover
+
+figcaption
+  position: absolute
+  bottom: 15px
+  background-color: black
+  color: white
+  padding: 2px 8px
+  //z-index: 4
+
+.login-bg
+  width: 100%
+  height: 650px
+  background-color: turquoise
+  position: relative
+  margin-top: 20px
+
+.login-belt
+  position: absolute
+  top: 30%
+  left: 12%
+  width: 80%
+  height: 200px
+  background:
+    color: #2D2D2D
+  border-radius: 5px
+
+.signup, .login
+  font:
+    size: 25px
+    family: arial
+  color: #fff
+  position: absolute
+  top: 20%
+  left: 65%
+
+.signup
+  left: 5%
+
+.signup-b, .login-b
+  position: absolute
+  top: 50%
+  left: 10%
+  width: 120px
+  height: 30px
+  font-family: Arial
+  font-size: small
+  font-weight: bold
+  background-color: transparent
+  color: white
+
+  &:hover
+    background-color: white
+    color: #2d2d2d
+
+
+
+.login-b
+  left: 70%
+
+.login-box
+  position: absolute
+  width: 400px
+  height: 400px
   background-color: #fff
+  top: -50%
+  left: 45%
+  border-radius: 5px
+  //transform: translate(90%,-27%)
+  z-index: 2
+
+.login_form
+  position: absolute
+  width: 400px
+  height: 350px
+  top: -30%
+  left: 45%
+  z-index: 3
+
+
+  h1
+    margin-left: 50px
+    font-family: Arial
+    color: turquoise
+
+  input
+    width: 280px
+    margin-top: 20px
+    margin-left: 50px
+    border: 0px
+    border-bottom: 1px solid
+
+  button
+    width: 100px
+    margin-top: 30px
+    margin-left: 220px
+
+.signup_form
+  position: absolute
+  width: 400px
+  height: 350px
+  top: -30%
+  left: 45%
+  z-index: 3
+
+  visibility: hidden
+  h1
+    margin-left: 50px
+    font-family: Arial
+    color: turquoise
+  input
+    width: 280px
+    margin-top: 20px
+    margin-left: 50px
+    border: 0px
+    border-bottom: 1px solid
+  button
+    width: 100px
+    margin-top: 30px
+    margin-left: 220px
 
 footer
   width: 99%

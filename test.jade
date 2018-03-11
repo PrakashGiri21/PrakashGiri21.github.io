@@ -11,10 +11,52 @@ body
     .logo
     .back-bird
     .fore-bird
+
+  section.content
+    article 
+      h1 Men fashion
+      p what's new in men's fashion       
+        section.work-m
+          .work-belt
+
+            .thumb-wrap
+              .content-m
+                .thumbnail(data-folder="work1")
+                  figure
+                    img(src="images/posts/one.jpg")
+                    figcaption <strong>Thumbnail 1</strong>
+                .thumbnail(data-folder="work2")
+                  figure
+                    img(src="images/posts/two.jpg")
+                    figcaption <strong>Thumbnail 2</strong>            
+                .thumbnail(data-folder="work3")
+                  figure
+                    img(src="images/posts/three.jpg")
+                    figcaption <strong>Thumbnail 3</strong>                
+            .work-wrap
+        
   section.content
     .login-bg
       .login-belt
+        strong.signup Don't have an account?
+        //button.button-primary.signup-b SIGN UP
+        button.signup-b SIGN UP
+        strong.login Have an account?
+        //button.button-primary.login-b LOGIN
+        button.login-b LOGIN
         .login-box
+        .login_form
+          h1 LOGIN
+          input(type="email" placeholder="Email") 
+          input(type="password" placeholder="Password")
+          br
+          button(type="submit") LOGIN
+        .signup_form
+          h1 SIGNUP
+          input(type="text" placeholder="Username")
+          input(type="email" placeholder="Email")
+          input(type="password" placeholder="Password")
+          button(type="submit") SIGNUP  
   
   footer
     .rows.footer-content
